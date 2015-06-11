@@ -1,0 +1,87 @@
+body{
+		background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+
+}
+
+.pictureButton, .bgimg{
+	position: absolute;
+}
+
+.wordButton{
+	position: absolute;
+	opacity: 0;
+}
+
+/*culture*/
+#btn1-1 img, #btn1-2 img{
+	width: 140px;
+}
+/*spots*/
+#btn2-1 img, #btn2-2 img{
+	width: 130px;
+}
+/*cuisine*/
+#btn3-1 img, #btn3-2 img{
+	width: 120px;
+}
+/*tips*/
+#btn4-1 img, #btn4-2 img{
+ 	width: 160px;
+}
+/*alphabet*/
+#btn5-1 img, #btn5-2 img{
+	width: 200px;
+}
+/*conversation*/
+#btn6-1 img, #btn6-2 img{
+	width: 180px;
+}
+
+
+/*culture*/
+#btn1-1, #btn1-2{
+	top: 270px;
+	left: 550px;
+}
+
+/*spots*/
+#btn2-1, #btn2-2{
+	top: 220px;
+	left: 950px;
+}
+
+/*cuisine*/
+#btn3-1, #btn3-2{
+	top: 170px;
+	left: 350px;
+}
+
+/*tips*/
+#btn4-1, #btn4-2{
+	top: 320px;
+	left: 1150px;
+}
+
+/*alphabet*/
+#btn5-1, #btn5-2{
+	top: 290px;
+	left: 100px;
+}
+
+/*conversation*/
+#btn6-1, #btn6-2{
+	top: 370px;
+	left: 750px;
+}
+
+
+#architecture{
+	position: absolute;
+	bottom: 0px;
+	left: 270px;
+	
+}
+#architecture img{
+	width: 330px;
+	opacity:0.7;
+}

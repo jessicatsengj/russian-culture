@@ -1,0 +1,116 @@
+body{
+	background: url('http://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730!Flag_of_Russia.svg') no-repeat center center fixed;
+	background-size: 100% 200%;
+}
+.flag img{
+	width:70%;
+}
+
+#map {
+	display: block;
+	position: absolute;
+	width: 1000px;
+	margin-top: 120px;
+	margin-left: 50px;
+	left: 150px;
+	z-index: 0;
+}
+
+.spots img{
+	position: absolute;
+}
+#spot1 img{
+	width:70px;
+	top: 370px;
+	left:290px;
+}
+#spot2 img{
+	width:60px;
+	top: 570px;
+	left:800px;
+}
+
+#spot3 img{
+	width:60px;
+	top: 270px;
+	left:320px;
+}
+
+#spot4 img{
+	width:40px;
+	top: 630px;
+	left:1070px;
+}
+
+#moscow, #redSquare, #baygal, #vlad{
+	position: absolute;
+	float:right;
+	display: inline-block;
+	background-color: rgba(187,251,255,0.8);
+	padding: 5px;
+	border: #0044bb 6px solid;
+	border-radius: 10px;
+	margin: 10px; 
+	opacity: 0;
+	
+}
+
+#moscow{
+	top: 75px;
+	right: 5px;
+}
+#moscow img, #baygal img, #vlad img{	
+	width: 150px;	
+	margin-left: 10px;
+	margin-right: 10px;	
+	border-radius: 10px;
+	display: block;
+}
+#redSquare img {
+	width: 150px;	
+	margin-left: 10px;
+	margin-right: 10px;	
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#moscow img, #baygal img, #vlad img{
+	margin-bottom: 10px;
+}
+
+
+#moscow .image, #baygal .image, #vlad .image{
+	display: inline-block;
+}
+
+#imageM1{
+	margin-top: -100px;
+}
+
+
+#moscow .word, #redSquare .word, #baygal .word, #vlad .word{
+	display: inline-block;
+}
+#moscow p{
+	width: 300px;
+}
+#redSquare p, #baygal p, #vlad p{
+	width: 400px;
+}
+
+#redSquare{
+	left: 30px;
+	top: 70px;
+}
+#redSquare img{
+	margin-top: -110px;
+}
+
+#baygal{
+	left: 400px;
+	top: 90px;
+}
+#vlad{
+	right: 5px;
+	top: 220px;
+}
