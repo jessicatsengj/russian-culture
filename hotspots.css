@@ -10,8 +10,8 @@ body{
 	display: block;
 	position: absolute;
 	width: 1000px;
-	margin-top: 120px;
-	margin-left: 50px;
+	margin-top: 80px;
+	/*margin-left: 50px;*/
 	left: 150px;
 	z-index: 0;
 	/*vertical-align : middle;*/
@@ -22,25 +22,25 @@ body{
 }
 #spot1 img{
 	width:70px;
-	top: 370px;
-	left:290px;
+	top: 330px;
+	left:240px;
 }
 #spot2 img{
 	width:60px;
-	top: 570px;
-	left:800px;
+	top: 530px;
+	left:750px;
 }
 
 #spot3 img{
 	width:60px;
-	top: 270px;
-	left:320px;
+	top: 230px;
+	left:270px;
 }
 
 #spot4 img{
 	width:40px;
-	top: 630px;
-	left:1070px;
+	top: 590px;
+	left:1020px;
 }
 
 #moscow, #redSquare, #baygal, #vlad{
