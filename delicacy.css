@@ -1,0 +1,31 @@
+body{
+	background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+	margin-top: 40px;
+}
+
+.picture div img{
+	width: 300px;
+	margin-top: 70px;
+	border: solid 10px #a35f29 ;
+}
+.picture h1{
+	border: solid 10px #a35f29 ;
+	text-align: center;
+	width: 300px;
+	padding: 50px;
+	margin-top: 70px;
+	background-color: #d7af8f;
+}
+.picture{
+	margin-left: 200px;
+}
+
+.introduction div{
+	margin-top: 50px;
+	padding: 10px;
+	border: solid 10px #a35f29 ;
+	background-color: #e2d9d2;
+}
+.introduction #intro1, .introduction #intro2{
+	background-color: #d7af8f;
+}
