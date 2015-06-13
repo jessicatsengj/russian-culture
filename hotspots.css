@@ -1,6 +1,5 @@
 body{
-	background: url('http://subtlepatterns.com/patterns/ricepaper.png') no-repeat center center fixed;
-	background-size: 100% 200%;
+	background: url('http://subtlepatterns.com/patterns/ricepaper.png') ;
 }
 .flag img{
 	width:70%;
@@ -10,7 +9,7 @@ body{
 	display: block;
 	position: absolute;
 	width: 1000px;
-	margin-top: 80px;
+	margin-top: 50px;
 	/*margin-left: 50px;*/
 	left: 150px;
 	z-index: 0;
@@ -22,24 +21,24 @@ body{
 }
 #spot1 img{
 	width:70px;
-	top: 330px;
+	top: 300px;
 	left:240px;
 }
 #spot2 img{
 	width:60px;
-	top: 530px;
+	top: 500px;
 	left:750px;
 }
 
 #spot3 img{
 	width:60px;
-	top: 230px;
+	top: 200px;
 	left:270px;
 }
 
 #spot4 img{
 	width:40px;
-	top: 590px;
+	top: 560px;
 	left:1020px;
 }
 
@@ -57,7 +56,7 @@ body{
 }
 
 #moscow{
-	top: 75px;
+	top: 45px;
 	right: 5px;
 }
 #moscow img, #baygal img, #vlad img{	
@@ -101,7 +100,7 @@ body{
 
 #redSquare{
 	left: 30px;
-	top: 70px;
+	top: 0px;
 }
 #redSquare img{
 	margin-top: -110px;
@@ -109,9 +108,9 @@ body{
 
 #baygal{
 	left: 400px;
-	top: 90px;
+	top: 60px;
 }
 #vlad{
 	right: 5px;
-	top: 220px;
+	top: 190px;
 }
