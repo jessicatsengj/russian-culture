@@ -1,13 +1,12 @@
 body{
 	background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
 	background-attachment: fixed;
-	margin: auto;
 }
-
 .nav{
 	background-image: url("http://i.imgur.com/GFWdX1a.png");
 	background-size: 100%;
 	height: 70px;
+	
 }
 .logo{
 	margin-top:15px; 

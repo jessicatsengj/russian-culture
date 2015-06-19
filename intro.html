@@ -1,79 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html class='no-js' lang="ja">
 <head>
-  	<meta charset="utf-8">
-  	<title>intro</title>
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="intro.css">
+<meta charset="UTF-8">
+<title>intro</title>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ropa+Sans">
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/intro.css">
+<link rel="stylesheet" href="./css/bar.css">
+<link rel="stylesheet" href="./css/slide.css">
+<script src="./js/vendor/modernizr.custom.min.js"></script>
+<script src="./js/vendor/jquery-1.10.2.min.js"></script>
+<script src="./js/bar.js"></script>
+<script src="./js/slide.js"></script>
+<script src="intro.js"></script>
 </head>
 <body>
-	<header>
-		<nav>
-			<!-- <ul>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul> -->
-		</nav>
-	</header>
 
-	<div class="string">
-		<svg height="400" width="1300">
-    		<line x1="200" y1="0" x2="200" y2="300" style="stroke:rgb(196,162,123);stroke-width:10" />
-    		<line x1="410" y1="0" x2="410" y2="200" style="stroke:rgb(196,162,123);stroke-width:10" />
-    		<line x1="620" y1="0" x2="620" y2="300" style="stroke:rgb(196,162,123);stroke-width:10" />
-    		<line x1="840" y1="0" x2="840" y2="400" style="stroke:rgb(196,162,123);stroke-width:10" />
-    		<line x1="1010" y1="0" x2="1010" y2="300" style="stroke:rgb(196,162,123);stroke-width:10" />
-    		<line x1="1230" y1="0" x2="1230" y2="350" style="stroke:rgb(196,162,123);stroke-width:10" />
-		</svg>
-		
-	</div>
-	<div class='row'>
+    <header class="hero-header">
+    <div class="inner">
+        <div class="slideshow">
+            <img src="http://www.theshare.cn/upload/image/20150408/6356409029605544546992407.jpg" alt="" width="1600" height="550">
+            <img src="http://www.abercrombiekent.co.uk/russia/moscow/images/russia_moscow.jpg" alt="" width="1600" height="550">
+            <img src="http://princeton-economics.me/wordpress/wp-content/uploads/2014/03/russia-night.jpg" alt="" width="1600" height="550">
+            <img src="http://cdnstatic-2.mydestination.com/library/images/445342_1680_948.jpg" alt="" width="1600" height="550">
+        </div>
+    </div>
+    </header>
+    <header class="page-header" role="banner">
+        <div class="inner">
+            <h1 class="site-logo"><a href="#"><img src="./img/logo_sp.png" alt="SpeakyGo"  width="200"></a></h1>
+            <nav class="primary-nav" role="navigation">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <!-- <li><a href="#">Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Recruit</a></li> -->
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-		<div class='culture'>
-			<div class='pictureButton' id='btn1-1'><img src="culture_btn1.png"></div>
-			<div class='wordButton' id='btn1-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="culture_btn2.png"></a></div>
-		</div>
+    <div class="dummy">
+        <div class="string">
+            <svg height="900" width="1300">
+                <line x1="200" y1="65" x2="200" y2="600" style="stroke:rgb(196,162,123);stroke-width:10" />
+                <line x1="410" y1="65" x2="410" y2="500" style="stroke:rgb(196,162,123);stroke-width:10" />
+                <line x1="620" y1="65" x2="620" y2="600" style="stroke:rgb(196,162,123);stroke-width:10" />
+                <line x1="840" y1="65" x2="840" y2="700" style="stroke:rgb(196,162,123);stroke-width:10" />
+                <line x1="1010" y1="65" x2="1010" y2="570" style="stroke:rgb(196,162,123);stroke-width:10" />
+                <line x1="1230" y1="65" x2="1230" y2="650" style="stroke:rgb(196,162,123);stroke-width:10" />
+            </svg>
+            
+        </div>
+        <div class='row'>
 
-		<div class='spots'>
-			<div class='pictureButton' id='btn2-1'><img src="spots_btn1.png"></div>
-			<div class='wordButton' id='btn2-2'><a href="http://jessicatsengj.github.io/russian-culture/hotspots.html"><img src="spots_btn2.png"></a></div>
-		</div>
+            <div class='culture'>
+                <div class='pictureButton' id='btn1-1'><img src="./img/culture_btn1.png"></div>
+                <div class='wordButton' id='btn1-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="./img/culture_btn2.png"></a></div>
+            </div>
 
-		<div class='cuisine'>
-			<div class='pictureButton' id='btn3-1'><img src="cuisine_btn1.png"></div>
-			<div class='wordButton' id='btn3-2'><a href="http://jessicatsengj.github.io/russian-culture/delicacy.html"><img src="cuisine_btn2.png"></a></div>
-		</div>
+            <div class='spots'>
+                <div class='pictureButton' id='btn2-1'><img src="./img/spots_btn1.png"></div>
+                <div class='wordButton' id='btn2-2'><a href="http://jessicatsengj.github.io/russian-culture/hotspots.html"><img src="./img/spots_btn2.png"></a></div>
+            </div>
 
-		<div class='tips'>
-			<div class='pictureButton' id='btn4-1'><img src="travel_btn1.png"></div>
-			<div class='wordButton' id='btn4-2'><a href="http://jessicatsengj.github.io/russian-culture/tips.html"><img src="travel_btn2.png"></a></div>
-		</div>
+            <div class='cuisine'>
+                <div class='pictureButton' id='btn3-1'><img src="./img/cuisine_btn1.png"></div>
+                <div class='wordButton' id='btn3-2'><a href="http://jessicatsengj.github.io/russian-culture/delicacy.html"><img src="./img/cuisine_btn2.png"></a></div>
+            </div>
 
-		<div class='alphabet'>
-			<div class='pictureButton' id='btn5-1'><img src="alphabet_btn1.png"></div>
-			<div class='wordButton' id='btn5-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="alphabet_btn2.png"></a></div>
-		</div>
+            <div class='tips'>
+                <div class='pictureButton' id='btn4-1'><img src="./img/travel_btn1.png"></div>
+                <div class='wordButton' id='btn4-2'><a href="http://jessicatsengj.github.io/russian-culture/tips.html"><img src="./img/travel_btn2.png"></a></div>
+            </div>
 
-		<div class='conversation'>
-			<div class='pictureButton' id='btn6-1'><img src="conversation_btn1.png"></div>
-			<div class='wordButton' id='btn6-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="conversation_btn2.png"></a></div>
-		</div>
-		
-		</div class="bgimg">
-			<div id='architecture'><img src="architecture.png"></div>
-		<div>
+            <div class='alphabet'>
+                <div class='pictureButton' id='btn5-1'><img src="./img/alphabet_btn1.png"></div>
+                <div class='wordButton' id='btn5-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="./img/alphabet_btn2.png"></a></div>
+            </div>
 
-	</div>
+            <div class='conversation'>
+                <div class='pictureButton' id='btn6-1'><img src="./img/conversation_btn1.png"></div>
+                <div class='wordButton' id='btn6-2'><a href="http://jessicatsengj.github.io/russian-culture/culture.html"><img src="./img/conversation_btn2.png"></a></div>
+            </div>
+            
+            </div class="bgimg">
+                <div id='architecture'><img src="./img/architecture.png"></div>
+            <div>
 
+        </div>
+    </div>
+    <footer>
+        <p>CONTACT US</p>
+    </footer>
 
-	
-	<footer>	
-	</footer>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
-    <script src="intro.js"></script>
 </body>
-	
-
 </html>

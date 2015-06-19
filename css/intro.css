@@ -40,44 +40,44 @@ body{
 
 /*culture*/
 #btn1-1, #btn1-2{
-	top: 270px;
+	top: 1020px;
 	left: 550px;
 }
 
 /*spots*/
 #btn2-1, #btn2-2{
-	top: 220px;
+	top: 1010px;
 	left: 950px;
 }
 
 /*cuisine*/
 #btn3-1, #btn3-2{
-	top: 170px;
+	top: 950px;
 	left: 350px;
 }
 
 /*tips*/
 #btn4-1, #btn4-2{
-	top: 320px;
+	top: 1070px;
 	left: 1150px;
 }
 
 /*alphabet*/
 #btn5-1, #btn5-2{
-	top: 290px;
+	top: 1040px;
 	left: 100px;
 }
 
 /*conversation*/
 #btn6-1, #btn6-2{
-	top: 370px;
+	top: 1120px;
 	left: 750px;
 }
 
 
 #architecture{
 	position: absolute;
-	bottom: 0px;
+	top: 1163px;
 	left: 270px;
 	
 }
@@ -85,3 +85,11 @@ body{
 	width: 330px;
 	opacity:0.7;
 }
+
+footer{
+	background-color: rgb(249,218,180);
+	padding: 5px;
+}
+/*footer p{
+	float: right;
+}*/
