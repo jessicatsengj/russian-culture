@@ -1,0 +1,80 @@
+body{
+	background-image: url('http://subtlepatterns.com/patterns/ricepaper.png');
+	background-attachment: fixed;
+	margin: auto;
+}
+
+.nav{
+	background-image: url("http://i.imgur.com/GFWdX1a.png");
+	background-size: 100%;
+	height: 70px;
+}
+.logo{
+	margin-top:15px; 
+}
+.nav-btn{
+	height: 70px;
+	float: right;
+}
+.footer{
+	background-image: url("http://i.imgur.com/GFWdX1a.png");
+	background-size: 100%;
+	height: 30px;
+	margin-top: 70em;
+
+}
+.foot-btn{
+	position:absolute;
+	right: 0px; 
+}
+
+.topic{
+	width:300px;
+	border: solid 5px #a35f29;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 140px;
+	text-align: center;
+	background-color: #d7af8f;
+}
+
+#content{
+	position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ .block{
+	border: solid 7px #a35f29;
+	display: block;
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin: 0 10px 20px;
+    /*padding: 20px;*/
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    color: #000;
+
+    background-color: rgba(195,144,126,0.2);
+    /*border-radius: 20px;*/
+}
+
+
+.block p, .block h2{
+	/*overflow: hidden;*/
+	position:relative;
+	/*border: solid 5px #a35f29;*/
+	margin: 20px;
+	/*opacity: 0;*/
+}
+
+.block img{
+	height:347px;
+	width:100%;
+	position: absolute;
+	z-index: 1;
+}
+
+
+
