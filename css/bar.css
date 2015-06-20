@@ -15,7 +15,7 @@ img { vertical-align: middle; }
  * Sticky header
  */
 
-/* デフォルトのスタイル */
+
 .page-header {
     background-color: rgba(255, 255, 255, 0.7);
     /*background-image: url('./img/navigationbar.png');*/
@@ -26,7 +26,7 @@ img { vertical-align: middle; }
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-/* スティッキー状態のスタイル */
+
 .page-header.sticky {
     background-color: rgb(249,218,180);
     position: fixed;
@@ -34,7 +34,7 @@ img { vertical-align: middle; }
 }
 
 .page-header > .inner {
-    margin: auto;
+   /* margin: auto;*/
     width: 960px;
 }
 
@@ -43,9 +43,12 @@ img { vertical-align: middle; }
 }
 
 /* Logo */
-.site-logo {
+.site-logo img {
     float: left;
-    margin-left: -20px;
+    margin-left: 20px;
+    margin-top:15px; 
+    width: 220px;
+
 }
 
 /* Primary nav */
@@ -54,6 +57,7 @@ img { vertical-align: middle; }
     line-height: 65px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    height: 70px;
 }
 .primary-nav li {
     float: left;
@@ -64,4 +68,22 @@ img { vertical-align: middle; }
 }
 .primary-nav a:hover {
     background-color: rgb(240, 240, 240);
+}
+
+/*.nav{
+    background-image: url("http://i.imgur.com/GFWdX1a.png");
+    background-size: 100%;
+    height: 70px;
+}
+.site-logo{
+    margin-top:15px; 
+}*/
+ul {
+    
+    /*float: right;*/
+    position: absolute;
+    right:0;
+}
+ul img{
+    height: 70px;
 }
