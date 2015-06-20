@@ -14,71 +14,71 @@ body{
 
 /*culture*/
 #btn1-1 img, #btn1-2 img{
-	width: 160px;
+	width: 130px;
 }
 /*spots*/
 #btn2-1 img, #btn2-2 img{
-	width: 150px;
+	width: 120px;
 }
 /*cuisine*/
 #btn3-1 img, #btn3-2 img{
-	width: 140px;
+	width: 110px;
 }
 /*tips*/
 #btn4-1 img, #btn4-2 img{
- 	width: 170px;
+ 	width: 140px;
 }
 /*alphabet*/
 #btn5-1 img, #btn5-2 img{
-	width: 210px;
+	width: 180px;
 }
 /*conversation*/
 #btn6-1 img, #btn6-2 img{
-	width: 190px;
+	width: 160px;
 }
 
 
 /*culture*/
 #btn1-1, #btn1-2{
 	top: 1040px;
-	left: 540px;
+	left: 490px;
 }
 
 /*spots*/
 #btn2-1, #btn2-2{
 	top: 1020px;
-	left: 935px;
+	left: 885px;
 }
 
 /*cuisine*/
 #btn3-1, #btn3-2{
 	top: 970px;
-	left: 340px;
+	left: 290px;
 }
 
 /*tips*/
 #btn4-1, #btn4-2{
 	top: 1070px;
-	left: 1150px;
+	left: 1100px;
 }
 
 /*alphabet*/
 #btn5-1, #btn5-2{
 	top: 1040px;
-	left: 100px;
+	left: 50px;
 }
 
 /*conversation*/
 #btn6-1, #btn6-2{
 	top: 1120px;
-	left: 750px;
+	left: 700px;
 }
 
 
 #architecture{
 	position: absolute;
 	top: 1163px;
-	left: 270px;
+	left: 220px;
 	
 }
 #architecture img{
