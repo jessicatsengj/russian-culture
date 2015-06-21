@@ -15,15 +15,26 @@ $(function(){
            
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
-            $(this).find('img').stop(true).animate({ width : "320px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "290px"}, duration);
         })
         .on('mouseout', function(){
             $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
-            $(this).find('img').stop(true).animate({ width : "300px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "270px"}, duration);
         });
 
     $('.pelmeni')
 
+        .on('mouseover', function(){
+            $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
+            $(this).find('img').stop(true).animate({ width : "260px"}, duration);
+        })
+        .on('mouseout', function(){
+            $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
+            $(this).find('img').stop(true).animate({ width : "240px"}, duration);
+        });
+
+    $('.borshch')
+           
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
             $(this).find('img').stop(true).animate({ width : "290px"}, duration);
@@ -33,7 +44,7 @@ $(function(){
             $(this).find('img').stop(true).animate({ width : "270px"}, duration);
         });
 
-    $('.borshch')
+    $('.cavair')
            
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
@@ -42,50 +53,39 @@ $(function(){
         .on('mouseout', function(){
             $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
             $(this).find('img').stop(true).animate({ width : "300px"}, duration);
-        });
-
-    $('.cavair')
-           
-        .on('mouseover', function(){
-            $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
-            $(this).find('img').stop(true).animate({ width : "350px"}, duration);
-        })
-        .on('mouseout', function(){
-            $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
-            $(this).find('img').stop(true).animate({ width : "330px"}, duration);
         });
 
      $('.kvass')
            
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
-            $(this).find('img').stop(true).animate({ width : "180px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "150px"}, duration);
         })
         .on('mouseout', function(){
             $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
-            $(this).find('img').stop(true).animate({ width : "160px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "130px"}, duration);
         });
 
      $('.vodka')
            
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
-            $(this).find('img').stop(true).animate({ width : "370px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "340px"}, duration);
         })
         .on('mouseout', function(){
             $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
-            $(this).find('img').stop(true).animate({ width : "350px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "320px"}, duration);
         });
 
      $('.meat')
            
         .on('mouseover', function(){
             $(this).find('.word').stop(true).animate({ opacity: 1}, duration);
-            $(this).find('img').stop(true).animate({ width : "320px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "290px"}, duration);
         })
         .on('mouseout', function(){
             $(this).find('.word').stop(true).animate({ opacity: 0}, duration);
-            $(this).find('img').stop(true).animate({ width : "300px"}, duration);
+            $(this).find('img').stop(true).animate({ width : "270px"}, duration);
         });
 
      $('.introduction')
