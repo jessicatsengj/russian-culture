@@ -64,7 +64,7 @@ img { vertical-align: middle; }
 }
 .primary-nav a {
     display: block;
-    padding: 0 1.36em;
+    padding: 0 ;
 }
 .primary-nav a:hover {
     background-color: rgb(240, 240, 240);
